@@ -9,13 +9,13 @@ use Illuminate\Support\Facades\Http;
 class PostSeeder extends Seeder
 {
 
-    static public $MIN_POSTS = 0;
+    static private $MIN_POSTS = 0;
 
-    static public $MAX_POSTS = 50;
+    static private $MAX_POSTS = 50;
 
-    static public $WORD_TITLE_VAL = 2;
+    static private $WORD_TITLE_VAL = 2;
     
-    static public $WORD_BODY_VAL = 1;
+    static private $WORD_BODY_VAL = 1;
 
     public function savePosts()
     {
